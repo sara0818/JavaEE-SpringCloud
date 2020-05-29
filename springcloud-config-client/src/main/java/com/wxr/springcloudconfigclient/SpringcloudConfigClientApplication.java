@@ -17,6 +17,7 @@ public class SpringcloudConfigClientApplication {
     SpringApplication.run(SpringcloudConfigClientApplication.class, args);
 
   }
+
   @Bean
   @LoadBalanced
   RestTemplate getRestTemplate() {
